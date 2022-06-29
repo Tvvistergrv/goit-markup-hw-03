@@ -302,7 +302,7 @@ h2 {
 }
 
 .section-team .item {
-    padding-right: 30px;
+    margin-right: 30px;
     
 }
 
@@ -328,7 +328,7 @@ h2 {
 
 
 .item .title {
-    margin: 30px 60px 10px;
+    margin-bottom: 10px;
     white-space: nowrap;
 }
 
@@ -336,7 +336,7 @@ h2 {
     color: var(--title-text-color);
     font-weight: 500;
     font-size: 16px;
-    line-height: 1.9;
+    line-height: 1.19;
 }
 
 .proff {
@@ -345,12 +345,13 @@ h2 {
     line-height: 1.9;
 }
 
-p {
-    display: block;
+.item-title {
+    padding-top: 30px;
+    padding-bottom: 30px;
 }
 
-.item .proff{
-    margin-bottom: 30px;
+p {
+    display: block;
 }
 
 /* footer */
